@@ -6,8 +6,8 @@ const person = {
     };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-var team = players.slice(0,3)
-var team1 =[...players] 
+var team = players
+var team1 = players.slice()
 
 var cap1 = [...person]
 
