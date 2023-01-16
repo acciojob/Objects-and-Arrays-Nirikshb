@@ -6,6 +6,9 @@ const person = {
     };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
+var team = players.slice(0,3)
+var team1 =[...players] 
 
+var cap1 = [...person]
 
 export {players,person,team,team1,cap1}
